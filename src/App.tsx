@@ -1,3 +1,4 @@
+import Announcement from "./components/Announcement";
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -5,6 +6,8 @@ const App = () => {
     <>
       {/* HEADER */}
       <Navbar />
+
+      <Announcement />
     </>
   );
 };
