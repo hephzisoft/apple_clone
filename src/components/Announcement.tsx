@@ -2,7 +2,7 @@ import { FaPlayCircle } from "react-icons/fa";
 
 const Announcement = () => {
   return (
-    <div className="mt-[200px] mx-auto p-20 justify-around items-center  bg-black rounded-3xl w-[80%] flex">
+    <div className="mt-[200px] mx-auto py-10 px-20 justify-between items-center  bg-black rounded-3xl w-[80%] flex">
       <div className="left-section">
         <h2 className="text-apple-text-white text-3xl font-bold">
           See the new <br /> MacBook Pro in action.

@@ -7,7 +7,7 @@ import HeroAppleIntelligence from "../assets/images/hero_apple_intelligence.png"
 import Search from "../assets/images/search.svg";
 
 const Navbar = () => {
-  const videoRef = useRef(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const { scrollY } = useScroll();
   const [showShowNav, setShowNewNav] = useState(false);
 
@@ -104,7 +104,7 @@ export default Navbar;
 const NewNav = () => {
   return (
     <motion.div
-      className="new-nav w-full h-10 bg-blue-500-500 py-6  fixed flex items-center justify-around bg-apple-bg-gray border-b border-white text-white"
+      className="new-nav w-full h-10 bg-blue-500-500 py-6 z-20 fixed flex items-center justify-around bg-apple-bg-gray border-b border-white text-white"
       initial={{ opacity: 0, top: -50 }}
       animate={{ opacity: 1, top: 0 }}
       exit={{ opacity: 0, top: -50 }}

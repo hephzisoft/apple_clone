@@ -1,4 +1,5 @@
 import Announcement from "./components/Announcement";
+import Highlights from "./components/Highlights";
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
       <Navbar />
 
       <Announcement />
+      <Highlights />
     </>
   );
 };
