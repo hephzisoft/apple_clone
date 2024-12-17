@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* sf pro display regular */
+@font-face {
+  font-family: "SF Pro Display"; /* Custom name for the font */
+  src: url("./assets/fonts/sf-pro-display_regular.woff2") format("woff2"); /* Path to font */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* sf pro display semi bold */
+@font-face {
+  font-family: "SF Pro Display"; /* Custom name for the font */
+  src: url("./assets/fonts/sf-pro-display_semibold.woff2") format("woff2"); /* Path to font */
+  font-weight: bold;
+  font-style: bold;
+}
+
+/* sf pro text light */
+@font-face {
+  font-family: "SF Pro Text"; /* Custom name for the font */
+  src: url("./assets/fonts/sf-pro-text_light.woff2") format("woff2"); /* Path to font */
+  font-weight: 300;
+  font-style: normal;
+}
+/* sf pro text regular */
+
+@font-face {
+  font-family: "SF Pro Text"; /* Custom name for the font */
+  src: url("./assets/fonts/sf-pro-text_regular.woff2") format("woff2"); /* Path to font */
+  font-weight: normal;
+  font-style: normal;
+}
+/* sf pro text semi bold */
+@font-face {
+  font-family: "SF Pro Text"; /* Custom name for the font */
+  src: url("./assets/fonts/sf-pro-text_semibold.woff2") format("woff2"); /* Path to font */
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* sf pro icon light */
+
+@font-face {
+  font-family: "SF Pro Icon"; /* Custom name for the font */
+  src: url("./assets/fonts/sf-pro-icons_light.woff2") format("woff2"); /* Path to font */
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* sf pro icon regular */
+@font-face {
+  font-family: "SF Pro Icon"; /* Custom name for the font */
+  src: url("./assets/fonts/sf-pro-icons_regular.woff2") format("woff2"); /* Path to font */
+  font-weight: 300;
+  font-style: normal;
+}
+/* sf pro icon semi bold */
+@font-face {
+  font-family: "SF Pro Icon"; /* Custom name for the font */
+  src: url("./assets/fonts/sf-pro-icons_semibold.woff2") format("woff2"); /* Path to font */
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+}
+body {
+  @apply bg-apple-bg-gray font-sfRegular;
+}
+
+@layer components {
+}
