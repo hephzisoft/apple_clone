@@ -10,6 +10,8 @@ const App = () => {
 
       <Announcement />
       <Highlights />
+
+      <div className="h-screen"></div>
     </>
   );
 };

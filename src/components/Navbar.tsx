@@ -69,8 +69,8 @@ const Navbar = () => {
         <div className="video-animation mt-5 absolute top-[20%]">
           <motion.video
             whileInView={{ opacity: 1 }}
-            onViewportEnter={() => videoRef.current.play()}
-            onViewportLeave={() => videoRef.current.pause()}
+            onViewportEnter={() => videoRef.current?.play()}
+            onViewportLeave={() => videoRef.current?.pause()}
             ref={videoRef}
             muted
           >
