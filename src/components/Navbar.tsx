@@ -2,9 +2,9 @@ import { FaApple } from "react-icons/fa";
 
 import { AnimatePresence, motion, useScroll } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import Bag from "../assets/images/bag.svg";
+import Bag from "../assets/icons/bag.svg";
 import HeroAppleIntelligence from "../assets/images/hero_apple_intelligence.png";
-import Search from "../assets/images/search.svg";
+import Search from "../assets/icons/search.svg";
 
 const Navbar = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
